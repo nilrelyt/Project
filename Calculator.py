@@ -6,6 +6,9 @@ window = tk.Tk()
 window.title('PyCalculator')
 window.geometry('500x600')
 
+label = ttk.Label(master = window, text = 'Type Expression')
+label.pack()
+
 entry = ttk.Entry(master = window)
 entry.pack()
 
